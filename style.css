@@ -1,0 +1,126 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Sección "Sobre mí" */
+#sobre-mi {
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#sobre-mi h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Sección "Proyectos" */
+#proyectos {
+    background-color: #f9f9f9;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.proyecto {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto h3 {
+    font-size: 20px;
+}
+
+.proyecto p {
+    font-size: 16px;
+}
+
+.proyecto a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Sección "Contacto" */
+#contacto {
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contacto h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contacto ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contacto li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#contacto a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contacto i {
+    margin-right: 10px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Media queries para diseño responsivo */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    .proyecto h3 {
+        font-size: 18px;
+    }
+
+    .proyecto p {
+        font-size: 14px;
+    }
+}
